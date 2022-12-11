@@ -208,7 +208,7 @@ const UICtrl = (function () {
         stopEdit: function () {
             UICtrl.clearInput()
             document.querySelector(UISelectors.updateBtn).style.display = "none"
-            document.querySelector(UISelectors.updateBtn).style.display = "inline"
+            document.querySelector(UISelectors.addBtn).style.display = "inline"
         },
         updateTotalCalories: function (totalCalories) {
             document.querySelector(UISelectors.totalCalories).innerHTML = totalCalories
